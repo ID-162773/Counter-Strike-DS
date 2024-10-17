@@ -71,3 +71,5 @@ Note : To avoid coding collisions, path finding..., there is an Unity project to
 - [ ] Translate system : **Medium/Difficult**
 - [ ] Add more maps : **Difficult**
 - [ ] Optimise the map with a tiled textures system instead of duplicate model faces : **Difficult**
+- [ ] Add map system **Easy**
+- [ ] Simple map editor **Difficult**
