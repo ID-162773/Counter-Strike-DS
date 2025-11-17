@@ -1,4 +1,7 @@
-# Counter Strike Nintendo DS
+# Counter Strike Nintendo DS originally made by [Fewnity](https://github.com/Fewnity)
+
+# This is a attempt to upgrade the experience of [Fewnity's Counter-Strike-Nintendo-DS demake](https://github.com/Fewnity/Counter-Strike-Nintendo-DS)
+
 **Counter Strike demake on Nintendo DS with online multiplayer** (Works on **emulator** and on **real hardware**).
 
 For **multiplayer** on **emulator**, please use [melonDS](https://melonds.kuribo64.net/downloads.php).<br/>
@@ -57,6 +60,8 @@ To have sounds and music, you need to use a virtual SD card, because sounds and 
 Note : To avoid coding collisions, path finding..., there is an Unity project to export code : https://github.com/Fewnity/Counter-Strike-DS-Unity-Project
 
 ## TODO
+- [ ] Make Build again
+- [ ] Fix Ai
 - [ ] Ad hoc (Ni-Fi) multiplayer : **Difficult**
 - [ ] Disable sleep mode in multiplayer : **?**
 - [ ] Add fall damage : **Easy**

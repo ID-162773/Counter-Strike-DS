@@ -280,7 +280,7 @@ int main(void)
 	Load();
 
 	// Init rumble pack
-	isRumbleInserted();
+	rumbleIsInserted();
 
 	/*if (!nitroFSInit(NULL))
 	{
@@ -444,8 +444,8 @@ void checkStartGameLoop()
 			}
 			UpdatePlayerTexture(i);
 		}
-		AllPlayers[2].Team = AllPlayers[1].Team;
-		UpdatePlayerTexture(2);
+		//AllPlayers[2].Team = AllPlayers[1].Team;
+		//UpdatePlayerTexture(2);
 
 		setPlayersPositionAtSpawns();
 
@@ -738,7 +738,7 @@ void reduceRumbleTimer()
 		RumbleTimer--;
 		// If timer = 0, disable rumble
 		if (RumbleTimer == 0)
-			setRumble(false);
+			rumble(false);
 	}
 }
 
@@ -1538,7 +1538,7 @@ void rumble(int timer)
 {
 	if (useRumble)
 	{
-		setRumble(true);
+		rumble(true);
 		RumbleTimer = timer;
 	}
 }
